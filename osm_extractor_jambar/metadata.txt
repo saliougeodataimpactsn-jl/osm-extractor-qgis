@@ -1,0 +1,21 @@
+[general]
+name=OSM Extractor by Jambar Lab
+qgisMinimumVersion=3.16
+qgisMaximumVersion=4.99
+description=Extract OpenStreetMap data (roads, waterways, buildings, schools, health facilities) from any layer extent. Works worldwide.
+version=3.2
+author=Jambar Lab
+email=saliougeodataimpact.sn@gmail.com
+about=OSM Extractor by Jambar Lab lets you extract OpenStreetMap data directly into QGIS from any vector layer extent — no manual download needed. Supported data types: roads, waterways, buildings, schools and health facilities. Data is fetched via the Overpass API, converted to vector layers, and optionally clipped to the exact boundary. Designed for reliable use in any network condition, from high-speed connections to low-bandwidth field environments. Works anywhere in the world. Compatible with QGIS 3.16 and above, including QGIS 4.x.
+
+tracker=https://github.com/saliougeodataimpactsn-jl/osm-extractor-qgis/issues
+repository=https://github.com/saliougeodataimpactsn-jl/osm-extractor-qgis
+homepage=https://github.com/saliougeodataimpactsn-jl/osm-extractor-qgis
+
+hasProcessingProvider=no
+tags=osm,openstreetmap,overpass,extraction,roads,buildings,waterways,schools,health,download,vector
+category=Plugins
+icon=icon.png
+experimental=False
+deprecated=False
+server=False
